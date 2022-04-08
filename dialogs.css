@@ -1,0 +1,70 @@
+.neutralinojs_alert {
+    display: block;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 9999999999;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.3);
+    top: 0; left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.neutralinojs_APC_box {
+    position: absolute;
+    background-color: #353535;
+    padding: 10px;
+    border-radius: 5px;
+    top: 40%; left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100px;
+    min-width: 400px;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.neutralinojs_APC_buttons {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.neutralinojs_APC_buttons button {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.neutralinojs_alert_ok_btn {
+    color: #333;
+    background-color: #00DDFF;
+    font-weight: bold;
+}
+
+.neutralinojs_alert_ok_btn:hover {
+    background-color: #74ecff;
+}
+
+.neutralinojs_alert_cancel_btn {
+    color: #ffffff;
+    background-color: #222;
+    font-weight: bold;
+}
+
+.neutralinojs_alert_cancel_btn:hover {
+    background-color: #555;
+}
+
+.neutralinojs_prompt_input {
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    width: 97%;
+}
